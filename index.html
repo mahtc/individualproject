@@ -1,63 +1,181 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
-
+<html>
 <head>
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
+<meta charset="UTF-8">
+<link rel = stylesheet" href= "css/style.css" type="text/css">
+<title>Food Network Recipe of Celebrity Chefs</title>        
+<link href="https://fonts.googleapis.com/css?family=Open+Sans-serif" rel="stylesheet">                                                           
+</head>
+<body>
+
+<style> 
+.flex-container {
+display: -webkit-flex;
+display: flex;  
+-webkit-flex-flow: row wrap;
+flex-flow: row wrap;
+text-align: center;
 }
 
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
+.flex-container > * {
+padding: 15px;
+-webkit-flex: 1 100%;
+flex: 1 100%;
 }
 
+.article {
+text-align: left;
+}
+
+header {background: #000000;color:#FFFFFF;}
+footer {background:#DCDCDC ;color:#000000;}
+.nav {background:#DCDCDC;}
+    
+body {background-color:#AFEEEE;   
+}
+
+.nav ul {
+list-style-type: none;
+padding: 0;
+}
+.nav ul a {
+text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+.nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+.article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+footer {-webkit-order:3;order:3;}
+}
 </style>
 </head>
-
 <body>
-<div id="mainContent">
-	<h1>Food Network</h1>
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
+
+<div class="flex-container">
+<header><h1>Food Network Recipes of Celebrity Chefs</h1></header>
+<h2>The Food Network is a unique lifestyle network, website and magazine that connects viewers to the power and joy of food.</h2>
+
+<nav class="nav">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT THE CHEFS</a></li>
+<li><a href="#">RECIPES</a></li>
+<li><a href="#">GALLERY</a></li>
+<li><a href="http://www.foodnetwork.com" target="_blank">FOOD NETWORK</a></li></p>      
+</ul>
+</nav>
+                                                 
+<p><img src=" img/pexels-photo-395134.jpeg" /></p>
+
+
+<article class="article">
+<p><h1>ABOUT THE CHEFS</h1><h1 style="border: 2px solid Red;"></h1> </p>
+
+<p style="color:#FF0000;"><b>Bobby Flay</b> </p><img src="img/1430157201574.jpg"/>
+<p<p><h4>Bobby Flay is an American celebrity chef, restaurateur, and reality television personality. He is the owner and executive chef of several restaurants: Mesa Grill in Las Vegas and Bahamas; Bar Americain in New York and Mohegan Sun in Connecticut; Bobby Flay Steak in Atlantic City; Gato in New York, and Bobby's Burger Palace in 19 locations across the states. 
+
+<p>Learn more about Bobby Flay and his recipes at <a href="http://www.foodnetwork.com/profiles/talent/bobby-flay/bio">Bobby Flay</a>.</p> 
+</h4> 
+    
+<p style="color:#FF0000;"><b>Giada De Laurentiis</b></p> <img src="img/1446069612539.jpeg"/>
+        
+<p><h4>Giada De Laurentiis is an Italian-born American chef, writer, and television personality. She is the host of Food Network's Giada at Home. 
+De Laurentiis is the founder of the catering business GDL Foods. She is a winner of the Daytime Emmy Award for Outstanding Lifestyle Host, the Gracie Award for Best Television Host, and was inducted into the Culinary Hall of Fame in 2012.
+
+<p>Learn more about Giada De Laurentiis and her recipes at <a href="http://www.foodnetwork.com/profiles/talent/giada-de-laurentiis/bio">Giada De Laurentiis.</a> </h4></p>
+       
+<p style="color:#FF0000;"><b>Rhee Drummond (known as "Pioneer Woman")</b></p> <img src="img/1371597794088.jpeg" />
+            
+<p><h4>Rhee Drummond is an award-winning American blogger, No.1 New York Times bestselling author, food writer, photographer and television personality who lives on a working ranch outside of Pawhuska, Oklahoma. In February 2010, she was listed as No. 22 on Forbes' Top 25 Web Celebrities - one of only four women.  Her blog, The Pioneer Woman, which documents her daily life as a ranch wife and mother, was named Weblog of the Year in 2009, 2010 and 2011 at the Annual Weblog Awards (The Bloggies).</p>
+    
+<p>Learn more about Rhee Drummond and her recipes at <a href="http://www.foodnetwork.com/profiles/talent/ree-drummond/bio">Rhee Drummond.</a> </h4></p>       
+
+</section>
+
+<section class="border">
+    
+<p><h1>RECIPES, INGREDIENTS, DIRECTIONS<h1 style="border: 2px solid Red;"></h1> </p>
+
+<!--sources of recipes--> 
+
+<p><h3>Bobby Flay's Sauteed Kale</p></h3> 
+<img src="img/bf-sauteed-kale-1-s4x3-jpg_3.jpeg"/>
+
+<p>INGREDIENTS:</p>
+<li>1-1/2 pounds young kale, stems and leaves coarsely chopped</li>
+<li>3 tablespoons olive oil</li>
+<li>2 cloves garlic, finely sliced</li>
+<li> 1/2 cup vegetable stock or water</li>
+<li>Salt and pepper</li>
+<li>2 tablespoons red wine vinegar</li>
+    
+<p>DIRECTIONS:</p>
+
+<p>Heat olive oil in a large saucepan over medium-high heat. Add the garlic and cook until soft, but not colored. Raise heat to high, add the stock and kale and toss to combine. Cover and cook for 5 minutes. Remove cover and continue to cook, stirring until all the liquid has evaporated. Season with salt and pepper and add vinegar.</p>
+    
+<p><h3>Giada De Laurentiis' Pasta Primavera</p></h3>
+<img src="img/ei1c05-pasta-primavera-jpg_3.jpeg"/>
+
+<p>INGREDIENTS:</p>
+<li>3 carrots, peeled and cut into thin strips</li>
+<li>2 medium zucchini or 1 large zucchini, cut into thin strips</li>
+<li>2 yellow squash, cut into thin strips</li>
+<li>1 onion, thinly sliced</li>
+<li>1 yellow bell pepper, cut into thin strips</li>
+<li>1 red bell pepper, cut into thin strips</li>
+<li>1/4 cup olive oil</li>
+<li>Kosher salt and freshly ground black pepper</li>
+<li>1 tablespoon dried Italian herbs or herbes de Provence</li>
+<li>1 pound farfalle (bowtie pasta)</li>
+<li>15 cherry tomatoes, halved</li>
+<li>1/2 cup grated Parmesan</li>
+</p>
+
+<p>DIRECTIONS:</p>
+<p>Pre-heat oven to 450 degrees F.
+On a large heavy baking sheet, toss all of the vegetables with the oil, salt, pepper, and dried herbs to coat. Transfer half of the vegetable mixture to another heavy large baking sheet and arrange evenly over the baking sheets. Bake until the carrots are tender and the vegetables begin to brown, stirring after the first 10 minutes, about 20 minutes total.
+
+<p>Meanwhile, cook the pasta in a large pot of boiling salted water until al dente, tender but still firm to the bite, about 8 minutes. 
+Drain, reserving 1 cup of the cooking liquid.</p>
+
+<p>Toss the pasta with the vegetable mixtures in a large bowl to combine. Toss with the cherry tomatoes and enough reserved cooking liquid to moisten. Season the pasta with salt and pepper. Sprinkle with Parmesan and serve immediately.</p>
+
+<p><h3>Rhee Drummond's Pan Fried Pork Chops</p></h3>
+<img src="img/1384789067362.jpeg"/>
+ 
+<p>INGREDIENTS:</p>
+<li>1 teaspoon seasoned salt, plus more for seasoning</li>
+<li>1 teaspoon ground black pepper, plus more for seasoning</li>
+<li>8 pork breakfast chops</li>
+<li>1 cup all-purpose flour</li>
+<li>Cayenne pepper</li>
+<li>1/2 cup canola oil</li>
+<li>1 tablespoon butter</li>
+<li>Smashed new potatoes for serving</li>
+    
+<p>DIRECTIONS:</p>
+<p>Salt and pepper both sides of the pork chops. Combine the flour and some cayenne, salt and black pepper. Dredge each side of the pork chops in the flour mixture, and then set aside on a plate.</p>
+
+<p>Heat the canola oil over medium to medium-high heat. Add the butter. When the butter is melted and the butter/oil mixture is hot, cook 3 pork chops at a time, 2 to 3 minutes on the first side. Flip and cook until the chops are golden brown on the other side, 1 to 2 minutes. Remove to a plate and repeat with the remaining pork chops. Serve with smashed new potatoes.</p>
+    
+</style>
+
+<p><h1>FOOD NETWORK GALLERY <h1 style="border: 2px solid Red;"></h1></p>
+                                                              
+<p> 
+<img src = "img/pexels-photo-227432.jpeg" class = "center image" alt="description" height="250" width="250">
+<img src = "img/cooking-775503_640.jpg"   class = "center image" alt="description" height="250" width="250">
+<img src = "img/cheese-1887233_640.jpg"   class = "center image" alt="description" height="250" width="250">
+<img src = "img/pexels-photo-109275.jpeg" class = "center image" alt="description" height="250" width="250">
+<img src = "img/dessert-2339954_640.jpg"  class = "center image" alt="description" height="250" width="250">  
+<img src = "img/smoothie-fruit-vegetables-salad-beetroot-carrots-161440.jpeg" class = "center image" alt="description" height="250" width="250">
+</p>
+                                                                                                                                               
+<p><strong></strong></p>
+</article>
+
+<footer>Copyright 2017 Food Network Celebrity Chef Recipes</footer>
 </div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
-
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
 
 </body>
 </html>
